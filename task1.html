@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover the best services tailored to your needs. Our website offers detailed information about our offerings and how we can help you achieve your goals.</p>
+            <h2>Our Services</h2>
+            <p>We provide a wide range of services to meet your needs. From consulting to implementation, we have you covered. <a href="#services">Learn more about our services.</a></p>
+            <h2>Contact Us</h2>
+            <p>Have questions or need support? We're here to help. <a href="#contact">Get in touch with us.</a></p>
+        </section>
+
+        <section id="about">
+            <h1>About Us</h1>
+            <p>We are dedicated to providing top-notch services to our clients. Our team of experts works tirelessly to ensure customer satisfaction.</p>
+        </section>
+
+        <section id="services">
+            <h1>Our Services</h1>
+            <p>We offer a variety of services including:</p>
+            <ul>
+                <li>Consulting</li>
+                <li>Project Management</li>
+                <li>Software Development</li>
+                <li>Technical Support</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or would like more information about our services, please reach out to us:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
